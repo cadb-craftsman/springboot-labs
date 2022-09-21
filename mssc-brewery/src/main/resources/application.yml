@@ -9,7 +9,6 @@ spring:
 logging:
   level:
     org.springframework.security: DEBUG
-    com.woowrale.architecture.microservice: DEBUG
 ############## Server properties ###############
 server:
   port: 8081
