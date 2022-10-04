@@ -1,11 +1,14 @@
 plugins {
-  id 'org.springframework.boot' version '2.7.0'
+  id 'org.springframework.boot' version '2.7.1'
   id 'io.spring.dependency-management' version '1.0.11.RELEASE'
   id 'java'
+  id 'com.palantir.docker'  version '0.34.0'
 }
 
-group = 'com.cadbcrafsman'
-version = '0.0.1-SNAPSHOT'
+var cname = "cadbcraftsman/helloworld"
+var appName = "helloworld"
+group = "com.craftsman"
+version = "1.0.0"
 sourceCompatibility = '17'
 
 repositories {
@@ -34,4 +37,10 @@ bootRun {
 
 jar {
   enabled = false
+}
+
+docker{
+  copySpec.from("$buildDir/libs/${appName}-${version}.jar").into("/")
+  name = "${cname}:${version}"
+  setDockerfile(file("Dockerfile"))
 }

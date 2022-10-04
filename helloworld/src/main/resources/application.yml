@@ -1,0 +1,4 @@
+############## application properties ###############
+spring:
+  application:
+    name: helloworld

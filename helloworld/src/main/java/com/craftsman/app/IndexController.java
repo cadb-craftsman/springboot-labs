@@ -1,4 +1,4 @@
-package com.cadbcraftsman.app;
+package com.craftsman.app;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,7 @@ public class IndexController {
 
   @GetMapping(path="/")
   public String getIndex() {
-    return "index";
+    return "/index";
   }
 
 }

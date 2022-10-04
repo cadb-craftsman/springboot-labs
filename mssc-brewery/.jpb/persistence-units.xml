@@ -4,7 +4,7 @@
     <persistence-units>
       <persistence-unit name="Default">
         <packages>
-          <package value="com.woowrale.msscbrewery" />
+          <package value="com.cadb.craftsman.msscbrewery" />
         </packages>
       </persistence-unit>
     </persistence-units>
