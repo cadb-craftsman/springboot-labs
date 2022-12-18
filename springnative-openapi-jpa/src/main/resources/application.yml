@@ -1,0 +1,88 @@
+############## Spring App properties ###############
+spring:
+  application:
+    name: springnative-openapi-jpa
+  lifecycle:
+    timeout-per-shutdown-phase: 15s  
+  config:
+    #(Only for local environment.)
+    import: "optional:configserver:" 
+  cloud:
+    config: 
+      uri: http://localhost:8888
+      request-connect-timeout: 5000
+      request-read-timeout: 5000
+      #(Only for local environment, for production set true.)
+      fail-fast: false 
+      retry:
+        max-attempts: 6
+        initial-interval: 1000
+        max-interval: 2000
+        multiplier: 1.1
+  datasource:
+    url: jdbc:h2:file:./target/data/products-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5 
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console.enabled: true
+    console.path: /h2-console
+    console.settings.trace: false
+############## Info properties ###############
+info:
+  app:
+    name: '@project.artifactId@'
+    version: '@project.version@'
+############## Log properties ###############
+logging:
+  level:
+    '[com.craftsman.restservice]': DEBUG
+############## Server properties ###############
+server:
+  port: 8080
+  shutdown: graceful
+  tomcat:
+    connection-timeout: 2s
+    keep-alive-timeout: 15s
+    threads:
+      max: 50
+      min-spare: 5
+  servlet:
+    contextPath: /
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+    min-response-size: 1024
+  http2:
+    enabled: true  
+############## Springdoc properties ###############    
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+    version: 'OPENAPI_3_0'  
+  swagger-ui:
+    path: /openapi/swagger-ui.html
+############## OpenApi properties ###############
+app:
+  openapi:
+    title: RestService API
+    description: This is a RestService Api.
+    security:
+      scheme: basicScheme 
+      basic: basic
+    license: 
+      name: Apache 2.0
+      url: https://opensource.org/licenses/Apache-2.0
+    contact:
+      name: Craftsman
+      url: http://cadb-craftsman.com

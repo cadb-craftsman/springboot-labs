@@ -1,0 +1,4 @@
+############## Spring App properties ###############
+spring:
+  datasource:
+    url: jdbc:h2:file:./target/data/products-db-test
