@@ -1,0 +1,23 @@
+############## Info properties ###############
+info:
+  system: 'springboot-frontapp'
+  app:
+    name: 'springboot-frontapp'
+    version: '1.0.0-SNAPSHOT'
+############## application properties ###############
+spring:
+  application:
+    name: 'springboot-frontapp'
+#  thymeleaf:
+#    cache: false
+#    prefix: classpath:/templates           
+#  security:
+#   user:
+#    name: admin
+#    password: admin
+#    roles: USER
+############## Server properties ###############
+server:
+  port: 8080
+  tomcat:
+    basedir: target/tomcat/

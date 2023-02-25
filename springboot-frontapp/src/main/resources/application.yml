@@ -1,0 +1,23 @@
+############## Info properties ###############
+info:
+  system: '@project.artifactId@'
+  app:
+    name: '@project.artifactId@'
+    version: '@project.version@'
+############## application properties ###############
+spring:
+  application:
+    name: '@project.artifactId@'
+#  thymeleaf:
+#    cache: false
+#    prefix: classpath:/templates           
+#  security:
+#   user:
+#    name: admin
+#    password: admin
+#    roles: USER
+############## Server properties ###############
+server:
+  port: 8080
+  tomcat:
+    basedir: target/tomcat/

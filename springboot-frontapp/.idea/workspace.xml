@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3c6292e-844e-444f-9a31-1c3f50377b88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.springframework.ide.eclipse.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/deployment.yml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/kustomization.yml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/service.yml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/frontend/FrontViewApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/frontend/config/FrontViewConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/frontend/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/frontend/domain/FrontViewBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/frontend/repository/FrontViewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/frontend/services/FrontViewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/frontend/services/IFrontViewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headTag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/src/main/java/com/polarbookshop/catalogservice/CatalogServiceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/src/main/java/com/polarbookshop/catalogservice/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-service/src/test/java/com/polarbookshop/catalogservice/CatalogServiceAppTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/RestServiceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/config/RestServiceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/controller/HttpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/controller/RestServiceApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/controller/RestServiceApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/controller/RestServiceApiControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/domain/dto/RestServiceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/domain/dto/RestServiceDtoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/domain/exceptions/RestServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/domain/exceptions/RestServiceResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/domain/mappers/RestServiceFactoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/domain/model/RestServiceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/domain/model/RestServiceEntityList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/repository/RestServiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/services/IRestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/java/com/craftsman/restservice/services/RestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/test/java/com/craftsman/restservice/RestServiceApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/test/java/com/craftsman/restservice/RestServiceRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/test/java/com/craftsman/restservice/RestServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springnative-openapi-jpa/src/test/resources/application-integration.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MEkrTjcoKkLncmeQonKp0T1P5y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FrontViewApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.craftsman.frontend.FrontViewApp" />
+      <module name="springboot-frontapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.craftsman.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FrontViewApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3c6292e-844e-444f-9a31-1c3f50377b88" name="Changes" comment="" />
+      <created>1677340329438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677340329438</updated>
+    </task>
+    <servers />
+  </component>
+</project>
