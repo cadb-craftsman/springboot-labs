@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="springboot-frontapp" options="-parameters" />
+      <module name="springboot-frontapp" options="" />
     </option>
   </component>
 </project>

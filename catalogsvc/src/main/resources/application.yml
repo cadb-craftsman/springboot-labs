@@ -1,0 +1,133 @@
+############## Info properties ###############
+info:
+  system: '@project.artifactId@'
+  app:
+    name: '@project.artifactId@'
+    group: '@project.groupId@'
+    version: '@project.version@' 
+############## Spring App properties ###############
+spring:
+  application:
+    name: '@project.artifactId@'
+  lifecycle:
+    timeout-per-shutdown-phase: 15s  
+  config:
+    #(Only for local environment.)
+    import: "optional:configserver:" 
+  cloud:
+    config: 
+      enabled: true
+      uri: http://localhost:8888
+      request-connect-timeout: 5000
+      request-read-timeout: 5000
+      #(Only for local environment, for production set true.)
+      fail-fast: false 
+      retry:
+        max-attempts: 6
+        initial-interval: 1000
+        max-interval: 2000
+        multiplier: 1.1
+  profiles:
+    active:
+    - default  
+  ############## Datasource configuration ###############
+  datasource:
+    url: jdbc:h2:file:./target/data/products-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    path: META-INF/spring/mconfig.xml
+  sql:
+    init:
+      mode: ALWAYS 
+      schema-locations:
+      - classpath:schema.sql      
+  h2:
+    console.enabled: true
+    console.path: /h2-console
+    console.settings.trace: false
+  ############## Datasource configuration MySql ###############
+  #datasource:
+  #  url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/ddbb
+  #  driverClassName: com.mysql.cj.jdbc.Driver
+  #  username: usr
+  #  password: pwd            
+############## Management properties ###############
+management:
+  endpoints:
+    web:
+      exposure:
+        include: env, health, heapdump, info, loggers, mappings, prometheus
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+      probes:
+        enabled: true
+  info:
+    env:
+      enabled: true
+    java:
+      enabled: true
+    os:
+      enabled: true
+  metrics:
+    tags:
+      application: '@project.artifactId@'    
+############## Server properties ###############
+server:
+  port: 8080
+  tomcat:
+    connection-timeout: 2s
+    keep-alive-timeout: 15s
+    threads:
+      max: 50
+      min-spare: 5  
+  servlet:
+    contextPath: /
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+    min-response-size: 1024
+  http2:
+    enabled: true
+############## Log properties ###############
+logging:
+  file:
+    name: target/logs/${spring.application.name}.log
+  level:
+      '[@project.groupId@.repository]': TRACE
+  pattern:
+    level: "%5p [${spring.application.name},%X{trace_id},%X{span_id}]"
+  logback:
+    rollingpolicy:
+      file-name-pattern: target/logs/${spring.application.name}.%d{yyyy-MM-dd}.%i.gz
+      max-file-size: 10MB
+      max-history: 30
+      total-size-cap: 500MB      
+############## Springdoc properties ###############    
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+    version: 'OPENAPI_3_0'  
+  swagger-ui:
+    path: /openapi/swagger-ui.html
+  enable-native-support: true    
+############## OpenApi properties ###############
+app:
+  openapi:
+    group: ${info.app.name}
+    title: Restservice API
+    description: This is a Restservice Api.
+    license: 
+      name: Apache 2.0
+      url: https://opensource.org/licenses/Apache-2.0
+    contact:
+      name: Craftsman
+      url: http://cadb-craftsman.com
+    package: ${info.app.group}
+    path: /api/v1/service/*  
+############## AppClient properties ###############
+client:
+  webservice: "http://localhost:8080"          
