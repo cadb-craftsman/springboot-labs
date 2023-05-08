@@ -1,0 +1,56 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.craftsman.catalogsvc.repository.CatalogSvcRepository">
+
+	<select id="findById"
+		resultType="com.craftsman.catalogsvc.domain.model.persistence.CatalogSvcEntity">
+		SELECT id, name, description FROM catalog WHERE id = #{id}
+	</select>
+
+	<select id="findAll"
+		resultType="com.craftsman.catalogsvc.domain.model.persistence.CatalogSvcEntity">
+		SELECT id, name, description FROM catalog
+	</select>
+
+	<insert id="save" keyColumn="id" keyProperty="id"
+		parameterType="com.craftsman.catalogsvc.domain.model.persistence.CatalogSvcEntity"
+		useGeneratedKeys="true"> INSERT INTO catalog <trim prefix="(" suffix=")"
+			suffixOverrides=",">
+			<if test="id != null and id != '' ">
+				id,
+			</if>
+			<if test="name != null">
+				name,
+			</if>
+			<if test="description != null and description != '' ">
+				description,
+			</if>
+		</trim>
+		<trim prefix="values ("
+			suffix=")" suffixOverrides=",">
+			<if test="id != null and id != '' ">
+				#{id},
+			</if>
+			<if test="name != null">
+				#{name},
+			</if>
+			<if test="description != null and description != '' ">
+		#{description},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="update"
+		parameterType="com.craftsman.catalogsvc.domain.model.persistence.CatalogSvcEntity">
+		UPDATE catalog <set>
+			name = #{name},
+			description = #{description}
+		</set> WHERE id =
+		#{id} </update>
+
+	<delete id="delete">
+		DELETE FROM catalog
+		WHERE id = #{id}
+	</delete>
+
+</mapper>

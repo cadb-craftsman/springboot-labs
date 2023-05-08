@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
-import com.craftsman.productsvc.domain.model.dtos.ProductSvcDto;
+import com.craftsman.productsvc.domain.model.dto.ProductSvcDto;
 import com.craftsman.productsvc.domain.model.service.ProductSvcBean;
 import com.craftsman.productsvc.domain.model.persistence.ProductSvcEntity;
 

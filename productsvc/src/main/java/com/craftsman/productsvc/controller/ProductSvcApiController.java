@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.craftsman.productsvc.domain.model.dtos.ProductSvcDto;
-import com.craftsman.productsvc.domain.model.dtos.ProductSvcDtoList;
+import com.craftsman.productsvc.domain.model.dto.ProductSvcDto;
+import com.craftsman.productsvc.domain.model.dto.ProductSvcDtoList;
 import com.craftsman.productsvc.domain.mappers.ProductSvcFactoryMapper;
 import com.craftsman.productsvc.services.IProductSvc;
 

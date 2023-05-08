@@ -5,16 +5,18 @@
 	<artifactId>catalogsvc</artifactId>
 	<packaging>jar</packaging>
 	<name>catalogsvc</name>
-	<description>Craftsman CatalogService Archetype</description>
+	<description>Craftsman CatalogSvc Archetype</description>
 	<version>1.0.0-SNAPSHOT</version>
+	
 	<parent>
 		<groupId>com.craftsman.cloudnative</groupId>
 		<artifactId>springboot-backend-service-starter-bom</artifactId>
 		<version>3.0.5-SNAPSHOT</version> <!-- lookup parent from repository -->
 	</parent>
+
 	<properties>
 		<!-- Libraries properties-->
-		<mybatis.version>3.0.2-SNAPSHOT</mybatis.version>
+		<mybatis.version>3.0.2</mybatis.version>
 		<openapi.version>2.1.0</openapi.version>
 		<mapstruct.version>1.5.3.Final</mapstruct.version>
 		<mapstruct.binding.version>0.2.0</mapstruct.binding.version>
@@ -30,14 +32,12 @@
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>${mybatis.version}</version>
-		</dependency>	
-		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j 
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
-			<version>${mysql.driver.version}</version>
 		</dependency>
-		-->		
 		<!-- Springdoc library -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
@@ -71,6 +71,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
