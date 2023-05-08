@@ -5,16 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c6292e-844e-444f-9a31-1c3f50377b88" name="Changes" comment="update projects.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/deployment.yml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/kustomization.yml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/kustomization.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/service.yml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/k8s/deployment.yml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/k8s/kustomization.yml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/k8s/service.yml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/ProductSvcApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/MyBatisHintsRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcClientProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/HttpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApiControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/dto/ProductSvcDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/dto/ProductSvcDtoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/exceptions/ProductSvcException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/exceptions/ProductSvcResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/mappers/ProductSvcFactoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/mappers/ProductSvcRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/model/DatabaseProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/model/ProductSvcBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/model/ProductSvcEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/repository/ProductSvcRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/repository/handlers/StringTrimTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/services/IProductSvc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/services/ProductSvcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/META-INF/spring/aot.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/com/craftsman/productsvc/repository/ProductSvcRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/org/apache/ibatis/builder/xml/mybatis-3-config.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/test/java/com/craftsman/productsvc/ProductSvcApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/test/java/com/craftsman/productsvc/ProductSvcRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/test/java/com/craftsman/productsvc/ProductSvcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productsvc/src/test/resources/application-integration.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +83,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/DevPartition/Development/repositories/github/craftsman/springboot-labs/springboot-frontapp/k8s",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="FrontViewApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.craftsman.frontend.FrontViewApp" />
