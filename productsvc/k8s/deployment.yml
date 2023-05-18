@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: productsvc
-          image: cadbcraftsman/productsvc:3.0.1-SNAPSHOT
+          image: cadbcraftsman/productsvc:1.0.0-SNAPSHOT
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
@@ -27,9 +27,9 @@ spec:
           env:
             - name: BPL_JVM_THREAD_COUNT
               value: "50"
-            - name: SPRING_CLOUD_CONFIG_URI
-              value: http://config-service
-            - name: SPRING_DATASOURCE_URL
-              value: jdbc:h2:file:./target/data/products-db
-            - name: SPRING_PROFILES_ACTIVE
-              value: dev
+            - name: SERVER_SERVLET_CONTEXTPATH
+              value: /productsvc
+          #  - name: SPRING_DATASOURCE_URL
+          #    value: jdbc:h2:file:./target/data/products-db
+          #  - name: SPRING_PROFILES_ACTIVE
+          #    value: dev

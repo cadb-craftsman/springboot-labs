@@ -63,31 +63,6 @@ public class ProductSvcConfig {
 	
 	@Bean
 	public SqlSessionFactory getSqlSessionFactory() throws Exception {
-
-	//	DataSource datasource = DataSourceBuilder.create().username(properties.getUsername())
-	//			.password(properties.getPassword()).url(properties.getUrl())
-	//			.driverClassName(properties.getDriverClassName()).build();
-		
-		
-	//	Reader reader = Resources.getResourceAsReader(properties.getPath());
-		
-		//TransactionFactory trxFactory = new JdbcTransactionFactory();
-
-		//Environment env = new Environment("connection", trxFactory, datasource);
-		//org.apache.ibatis.session.Configuration config = new org.apache.ibatis.session.Configuration(env);
-
-		//TypeAliasRegistry aliases = config.getTypeAliasRegistry();
-		
-		//aliases.registerAlias("record", ProductSvcEntity.class);
-
-		//config.addMapper(ProductSvcRepository.class);
-
-	//	SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(reader, properties.getEnvironment());
-
-	//	return factory;
-		
-
-		//PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
 		SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
 		sqlSessionFactoryBean.setDataSource(getDataSource());
 		sqlSessionFactoryBean.setMapperLocations(new ClassPathResource("ProductSvcRepository.xml", ProductSvcRepository.class));

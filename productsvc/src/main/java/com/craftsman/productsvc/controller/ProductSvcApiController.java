@@ -1,5 +1,6 @@
 package com.craftsman.productsvc.controller;
 
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,12 +11,11 @@ import com.craftsman.productsvc.domain.mappers.ProductSvcFactoryMapper;
 import com.craftsman.productsvc.services.IProductSvc;
 
 @RestController
+@AllArgsConstructor
 public class ProductSvcApiController implements ProductSvcApi {
 
-	@Autowired
 	private IProductSvc service;
 
-	@Autowired(required = true)
 	private ProductSvcFactoryMapper mapper;
 
 	@Override

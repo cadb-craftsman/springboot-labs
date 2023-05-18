@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: minikube-nginx
+  namespace: kube-system
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: minikube-labs.org
+      http:
+        paths:
+          - path: /springboot-frontapp
+            pathType: Prefix
+            backend:
+              service:
+                name: springboot-frontapp
+                port:
+                  number: 80
+    - host: minikube-labs.org
+      http:
+        paths:
+          - path: /productsvc
+            pathType: Prefix
+            backend:
+              service:
+                name: productsvc
+                port:
+                  number: 80

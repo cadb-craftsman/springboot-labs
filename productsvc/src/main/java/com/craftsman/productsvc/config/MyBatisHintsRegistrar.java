@@ -16,6 +16,7 @@ import org.apache.ibatis.scripting.defaults.RawLanguageDriver;
 import org.apache.ibatis.scripting.xmltags.XMLLanguageDriver;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.logging.Logger;
+import org.mybatis.logging.LoggerFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.aot.hint.MemberCategory;
@@ -45,6 +46,7 @@ public class MyBatisHintsRegistrar implements RuntimeHintsRegistrar {
                 .registerType(ProductSvcRepository.class, memberCategoryBuilder)
                 .registerType(Logger.class, memberCategoryBuilder)
                 .registerType(LogFactory.class, memberCategoryBuilder)
+                .registerType(LoggerFactory.class, memberCategoryBuilder)
                 .registerType(XMLLanguageDriver.class, memberCategoryBuilder)
                 .registerType(XMLMapperBuilder.class, memberCategoryBuilder)
                 .registerType(RuntimeSupport.class, memberCategoryBuilder)
