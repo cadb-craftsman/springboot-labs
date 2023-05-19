@@ -1,0 +1,36 @@
+############## Info properties ###############
+info:
+  system: '@project.artifactId@'
+  app:
+    name: '@project.artifactId@'
+    version: '@project.version@'
+############## Spring App properties ###############
+spring:
+  application:
+    name: '@project.artifactId@'
+  lifecycle:
+    timeout-per-shutdown-phase: 15s
+  config:
+    #(Only for local environment.)
+    import: "optional:configserver:"
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+      request-connect-timeout: 5000
+      request-read-timeout: 5000
+      #(Only for local environment, for production set true.)
+      fail-fast: false
+      retry:
+        max-attempts: 6
+        initial-interval: 1000
+        max-interval: 2000
+        multiplier: 1.1
+  profiles:
+    active:
+      - default
+############## Server properties ###############
+server:
+  port: 8080
+  tomcat:
+    basedir: target/tomcat/
