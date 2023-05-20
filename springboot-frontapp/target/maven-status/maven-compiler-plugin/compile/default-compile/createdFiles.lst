@@ -1,7 +1,0 @@
-com/craftsman/frontend/domain/FrontViewBean.class
-com/craftsman/frontend/controller/IndexController.class
-com/craftsman/frontend/services/FrontViewServiceImpl.class
-com/craftsman/frontend/repository/FrontViewRepository.class
-com/craftsman/frontend/config/FrontViewConfig.class
-com/craftsman/frontend/services/IFrontViewService.class
-com/craftsman/frontend/FrontViewApp.class

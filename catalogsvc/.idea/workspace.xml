@@ -4,79 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1858d1e-6895-4bd1-bdad-02a085e09809" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/kustomization.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/CatalogSvcApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogSvcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogSvcClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogSvcClientProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogSvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/controller/CatalogSvcApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/controller/CatalogSvcApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/controller/CatalogSvcApiControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/exceptions/CatalogSvcException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/exceptions/CatalogSvcResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/mappers/CatalogSvcFactoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/mappers/CatalogSvcRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/dto/CatalogSvcDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/dto/CatalogSvcDtoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/persistence/CatalogSvcEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/persistence/DatabaseProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/repository/CatalogSvcRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/repository/handlers/StringTrimTypeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/services/CatalogSvcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/services/ICatalogSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/craftsman/catalogsvc/repository/CatalogSvcRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/apache/ibatis/builder/xml/mybatis-3-config.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/craftsman/catalogsvc/CatalogSvcApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/craftsman/catalogsvc/CatalogSvcRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/craftsman/catalogsvc/CatalogSvcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/deployment.yml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/kustomization.yml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/service.yml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/CatalogServiceApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogServiceClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogServiceClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogServiceClientProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/CatalogServiceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/MyBatisHintsRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/config/MyBatisHintsRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/controller/CatalogServiceApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/controller/CatalogServiceApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/controller/CatalogServiceApiControllerAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/dto/CatalogServiceDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/dto/CatalogServiceDtoList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/exceptions/CatalogServiceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/exceptions/CatalogServiceResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/mappers/CatalogServiceFactoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/CatalogServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/service/CatalogSvcBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/CatalogServiceEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/domain/model/DatabaseProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/repository/CatalogServiceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/services/CatalogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/catalogsvc/services/ICatalogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/craftsman/catalogsvc/CatalogServiceApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/craftsman/catalogsvc/CatalogServiceRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/craftsman/catalogsvc/CatalogServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application-integration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-integration.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApi.java" afterDir="false" />
+    <list default="true" id="e1858d1e-6895-4bd1-bdad-02a085e09809" name="Changes" comment="Update code with improvements">
+      <change afterPath="$PROJECT_DIR$/../productsvc/k8s/ingress.yml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/ingress.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/k8s/deployment.yml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/k8s/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/k8s/service.yml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/k8s/service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/MyBatisHintsRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/MyBatisHintsRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/mappers/ProductSvcFactoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/mappers/ProductSvcFactoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/model/dtos/ProductSvcDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/model/dto/ProductSvcDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/model/dtos/ProductSvcDtoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/domain/model/dto/ProductSvcDtoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/test/java/com/craftsman/productsvc/ProductSvcApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/test/java/com/craftsman/productsvc/ProductSvcApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/services/ProductSvcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/services/ProductSvcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/application.yml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/kustomization.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/kustomization.yml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -184,7 +140,19 @@
       <option name="presentableId" value="Default" />
       <updated>1683546132934</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update code with improvements">
+      <created>1683548741151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683548741151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update code with improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update code with improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
