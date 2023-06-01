@@ -1,25 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: springboot-frontapp
-  namespace: default
+  name: frontapp
   labels:
-    app: springboot-frontapp
+    app: frontapp
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
-    app: springboot-frontapp
+    app: frontapp
   ports:
   - name: http
-    port: 80
+    port: 8080
     targetPort: 8080
     protocol: TCP
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: springboot-frontapp
-  namespace: kube-system
-spec:
-  type: ExternalName
-  externalName: springboot-frontapp.default.svc.cluster.local

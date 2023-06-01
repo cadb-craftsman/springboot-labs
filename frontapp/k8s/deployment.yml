@@ -28,4 +28,4 @@ spec:
             - name: BPL_JVM_THREAD_COUNT
               value: "50"
             - name: SERVER_SERVLET_CONTEXTPATH
-              value: /springboot-frontapp
+              value: /frontapp
