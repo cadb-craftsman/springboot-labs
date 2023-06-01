@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1858d1e-6895-4bd1-bdad-02a085e09809" name="Changes" comment="Update code with improvements">
-      <change afterPath="$PROJECT_DIR$/../productsvc/k8s/ingress.yml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/ingress.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/k8s/deployment.yml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/k8s/deployment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/k8s/service.yml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/k8s/service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/MyBatisHintsRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/MyBatisHintsRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/config/ProductSvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/controller/ProductSvcApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/services/ProductSvcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/java/com/craftsman/productsvc/services/ProductSvcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productsvc/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../productsvc/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/application.yml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/deployment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/kustomization.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/kustomization.yml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-frontapp/k8s/service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-frontapp/k8s/service.yml" afterDir="false" />
-    </list>
+    <list default="true" id="e1858d1e-6895-4bd1-bdad-02a085e09809" name="Changes" comment="Update code with improvements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
