@@ -6,9 +6,7 @@ resources:
   - service.yml
 
 configMapGenerator:
-  - name: productsvcx-config
-    files:
-      - application.yml
+  - name: springboot-frontapp
     options:
       labels:
-        app: productsvcx-service
+        app: springboot-frontapp

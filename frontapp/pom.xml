@@ -26,6 +26,11 @@
     </properties>
 
 	<dependencies>
+		<!-- Lombok Tool -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 		<!-- Include JUnit 4 support for TestBench and others -->
 		<dependency>
 			<groupId>org.junit.vintage</groupId>

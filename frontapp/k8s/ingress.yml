@@ -2,16 +2,15 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: frontapp-nginx
-  namespace: kube-system
 spec:
   ingressClassName: nginx
   rules:
     - http:
         paths:
-          - path: /frontapp
+          - path: /springboot-frontapp
             pathType: Prefix
             backend:
               service:
-                name: frontapp
+                name: springboot-frontapp
                 port:
                   number: 8080
