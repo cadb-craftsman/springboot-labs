@@ -13,4 +13,4 @@ spec:
               service:
                 name: springboot-frontapp
                 port:
-                  number: 8080
+                  number: 80
